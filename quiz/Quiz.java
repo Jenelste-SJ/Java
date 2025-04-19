@@ -19,14 +19,14 @@ public class Quiz {
 
             char userAnswer = getValidAnswer(scanner);
             if (questions[i].isCorrect(userAnswer)) {
-                System.out.println("✅ Correct!\n");
+                System.out.println(" Correct!\n");
                 score++;
             } else {
-                System.out.println("❌ Wrong! Correct answer: " + questions[i].getCorrectAnswer() + "\n");
+                System.out.println(" Wrong! Correct answer: " + questions[i].getCorrectAnswer() + "\n");
             }
         }
 
-        System.out.println("🎉 Quiz Completed! Your score: " + score + "/" + questions.length);
+        System.out.println(" Quiz Completed! Your score: " + score + "/" + questions.length);
         scanner.close();
     }
 
