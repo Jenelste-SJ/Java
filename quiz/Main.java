@@ -16,20 +16,6 @@ public class Main {
     new Question("How many continents are there on Earth?", 
         new String[] { "5", "6", "7", "8" }, 'C'),
         
-    new Question("Which country hosted the 2016 Summer Olympics?", 
-        new String[] { "China", "Brazil", "Russia", "Japan" }, 'B'),
-        
-    new Question("What is the square root of 144?", 
-        new String[] { "10", "11", "12", "13" }, 'C'),
-        
-    new Question("Which is the longest river in the world?", 
-        new String[] { "Amazon", "Yangtze", "Mississippi", "Nile" }, 'D'),
-        
-    new Question("What do you call a shape with eight sides?", 
-        new String[] { "Pentagon", "Hexagon", "Octagon", "Decagon" }, 'C'),
-        
-    new Question("Which element has the chemical symbol 'O'?", 
-        new String[] { "Gold", "Oxygen", "Osmium", "Zinc" }, 'B')
 };
 
 
